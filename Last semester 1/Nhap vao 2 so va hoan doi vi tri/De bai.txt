@@ -1,0 +1,11 @@
+Viết chương trình nhập vào 2 số nguyên a, b. Sau đó hoán đổi
+giá trị của 2 số đó:
+a. Cho phép dùng biến trung gian.
+b. Không được phép dùng biến trung gian.
+  
+Input: a, b
+Output: b, a
+
+Ví dụ:
+INPUT 3 5
+OUTPUT 5 3
