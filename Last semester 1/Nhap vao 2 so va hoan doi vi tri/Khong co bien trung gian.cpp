@@ -2,7 +2,7 @@
 using namespace std;
 int main ()
 {
-    int a,b,c;
+    int a,b;
     cout << "Input a = ";
     cin >> a;
     cout << "Input b = ";
@@ -14,7 +14,7 @@ int main ()
     b = a - b;
     // Bien b da thay doi thanh = a (a nhap vao)
 
-    a = a - b
+    a = a - b;
 
     cout << "After changering possition..." << endl;
 
