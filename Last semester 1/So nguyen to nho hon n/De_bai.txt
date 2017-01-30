@@ -1,0 +1,11 @@
+Liệt kê tất cả các số nguyên tố nhỏ hơn n.
+
+* Ví dụ
+Input: 16 
+Output: 
+2
+3
+5
+7
+11
+13
