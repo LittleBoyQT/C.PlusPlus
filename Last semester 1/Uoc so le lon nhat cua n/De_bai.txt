@@ -1,0 +1,5 @@
+Viết chương trình tìm ước số lẻ lớn nhất nhỏ hơn n của số nguyên dương n.
+
+Ví dụ:
+Input: 100 
+output: 25
