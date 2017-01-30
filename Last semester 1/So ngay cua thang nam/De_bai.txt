@@ -1,0 +1,8 @@
+Viết chương trình đọc vào tháng năm, in ra số ngày của tháng đó. Sử dụng nhập xuất chuẩn.
+
+* Ví dụ:
+Input: 
+1 2017 
+
+Output:
+31
