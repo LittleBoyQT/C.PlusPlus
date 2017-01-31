@@ -6,7 +6,7 @@ using namespace std;
 
 int main ()
 {
-    int month, nam;
+    int month, year;
 
     do
     {
@@ -14,15 +14,15 @@ int main ()
         cin >> month;
 
         cout << "Input year : ";
-        cin >> nam;
+        cin >> year;
     }
-    while(nam < 0 || month <= 0 || month > 12);
+    while(year < 0 || month <= 0 || month > 12);
 
     // Call SO_NGAY void function
-    NUMBERofDAYS (month, nam);
+    NUMBERofDAYS (month, year);
 }
 
-void NUMBERofDAYS(int month, int nam)
+void NUMBERofDAYS(int month, int year)
 {
 
     switch (month)
