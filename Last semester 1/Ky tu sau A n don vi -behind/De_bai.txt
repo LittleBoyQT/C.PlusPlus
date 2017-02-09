@@ -1,5 +1,5 @@
-* Cho chữ cái hoa A và số nguyên dương N≤10. In ra chữ cái hoa đứng sau chữ cái A N đơn vị (chú ý: các chữ cái xếp theo vòng tròn, vì vậy nếu A
-= ‘Z’ và N = 1 thì đáp án là ‘A’).
+* Cho chữ cái hoa A và số nguyên dương N≤10. In ra chữ cái hoa đứng sau chữ cái A N đơn vị 
+(chú ý: các chữ cái xếp theo vòng tròn, vì vậy nếu A = ‘Z’ và N = 1 thì đáp án là ‘A’).
 
 Input: Chữ cái hoa A và số nguyên dương N
 Output: Chữ cái thỏa mãn đề bài.
