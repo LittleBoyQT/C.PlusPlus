@@ -7,4 +7,3 @@ Output: Tổng chu vi T
 Ví dụ:
 INPUT: 1 1 1
 OUTPUT: 12
-[[https://github.com/LittleBoyQT/C.PlusPlus/blob/master/Last%20semester%201/Perimeter%20of%20rectangular/HINH_HOP.PNG|alt=octocat]]
