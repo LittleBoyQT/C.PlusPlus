@@ -1,0 +1,9 @@
+Biết diện tích 3 mặt của một hình hộp chữ nhật: S1, S2 và S3. 
+Viết chương trình tính tổng chu vi 3 mặt của hình hộp chữ nhật.
+
+Input: Các số nguyên S1, S2, S3
+Output: Tổng chu vi T
+
+Ví dụ:
+INPUT: 1 1 1
+OUTPUT: 12
