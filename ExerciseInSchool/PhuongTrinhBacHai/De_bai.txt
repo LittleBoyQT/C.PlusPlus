@@ -1,0 +1,1 @@
+Giải phương trình bậc hai ax^2 + bx + c = 0 ( a # 0 )
