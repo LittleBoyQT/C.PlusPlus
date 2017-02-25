@@ -1,0 +1,16 @@
+Câu 3. [guess.cpp]
+Viết chương trình cho phép người dùng đoán một số n ngẫu nhiên (trong khoảng từ 1 đến 100). Ta sinh
+n với hàm rand. Chú ý là n khác nhau ở các lần chạy khác nhau. Khi người dùng đoán giá trị x,
+• nếu x bằng n, in ra “CHÍNH XÁC!” và kết thúc chương trình
+• nếu x lớn hơn n, in ra “n < x” rồi lặp lại việc nhập và so sánh
+• nếu x nhỏ hơn n, in ra “n > x” rồi lặp lại việc nhập và so sánh
+Ví dụ:
+Chương trình đoán số n (1 <= n <=
+100). n theo phỏng đoán của bạn: 25
+n < 25
+n theo phỏng đoán của bạn:
+10 n < 10
+n theo phỏng đoán của bạn:
+8 n > 8
+n theo phỏng đoán của bạn: 9
+CHÍNH XÁC!
