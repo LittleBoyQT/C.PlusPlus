@@ -4,7 +4,6 @@ using namespace std;
 
 void drawTriangle (int h)
 {
-
     for (int i = 0; i < h; i++) 
     {
         for (int j = h - 1; j > i; j--)   
