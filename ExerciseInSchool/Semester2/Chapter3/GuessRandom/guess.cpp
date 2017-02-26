@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib> // thu vien cho ham RAND
+#include <cstdlib> // Thu vien cho ham RAND
 #include <time.h> // Thu vien cho ham TIME
 using namespace std;
 
@@ -31,8 +31,6 @@ int main()
         {
             cout << "***CHINH XAC***" << endl << endl;
         }
-    }
-    while (x != n); // Lap cho toi khi x = n
+    } while (x != n); // Lap cho toi khi x = n
     return 0;
-
 }
