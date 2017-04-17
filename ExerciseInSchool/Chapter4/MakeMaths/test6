@@ -1,0 +1,126 @@
+#include <iostream>
+#include <cstdlib>
+#include <time.h>
+using namespace std;
+
+int main()
+{
+    int n1, n2, rou, r, mod = 0;
+    int max = 99;
+    srand(time(0));
+
+    int c = 1, ncorrect=0, nwrong=0;
+    int ntimes = 1;
+
+
+    int rand_program = 1 + rand() % (4 - 1 + 1);
+    switch(rand_program)
+    {
+
+        case 1:
+            cout << "CHUONG TRINH HOC TINH PHEP NHAN." << endl;
+            break;
+        case 2:
+            cout << "CHUONG TRINH HOC TINH PHEP CHIA." << endl;
+            break;
+        case 3:
+            cout << "CHUONG TRINH HOC TINH PHEP CONG." << endl;
+            break;
+        case 4:
+            cout << "CHUONG TRINH HOC TINH PHEP TRU." << endl;
+            break;
+    }
+
+    cout << "--------------------------------------------------" << endl;
+    do
+    {
+        n1 = rand() % max;
+        n2 = rand() % max;
+        do
+        {
+            c++;
+            switch(rand_program)
+            {
+
+                case 1:
+                    r = n1 * n2;
+                    cout << n1 << " * " << n2 << " = ";
+                    cin >> rou;
+                    break;
+                case 2:
+                    r = n1 / n2;
+                    mod = n1 % n2;
+                    cout << n1 << " / " << n2 << " = ";
+                    cin >> rou;
+                    break;
+                case 3:
+                    r = n1 + n2;
+                    cout << n1 << " + " << n2 << " = ";
+                    cin >> rou;
+                    break;
+                case 4:
+                    r = n1 - n2;
+                    cout << n1 << " - " << n2 << " = ";
+                    cin >> rou;
+                    break;
+            }
+            int rand_str = 1 + rand() % 2;
+            if (r != rou)
+            {
+                switch(rand_str)
+                {
+                    case 1:
+                        cout << "Sai roi. Moi ban tra loi lai!" << endl;
+                        break;
+                    case 2:
+                        cout << "Dap an khac co. Ban tinh lai nhe!" << endl;
+                        break;
+                    case 3:
+                        cout << "Ban oi dung bo cuoc." << endl;
+                        break;
+                    case 4:
+                        cout << "Sai roi. Tiep tuc co gang ban nhe!" << endl;
+                        break;
+                }
+                cout << "-" << endl;
+                nwrong++;
+            }
+            if (r == rou)
+            {
+                ntimes++;
+                ncorrect++;
+                switch(rand_str)
+                {
+                    case 1:
+                        cout << "Tot!" << endl;
+                        break;
+                    case 2:
+                        cout << "Dung day!" << endl;
+                        break;
+                    case 3:
+                        cout << "Dap so chuan day! Tiep tuc giai dung nhe!" << endl;
+                        break;
+                }
+                cout << "--------------------------------------------------" << endl;
+            }
+            if (r<0)
+            {
+                cout << "Ket qua phep toan nay se bi am. Thuc hien tiep cho toi khi khong co ket qua am" << endl;
+                break;
+            }
+            if (mod > 0)
+            {
+                cout << "Ket qua phep toan nay se co phan du. Thuc hien toi khi ket qua khong co phan du." << endl;
+                break;
+            }
+        }while(r != rou && c <= 10);
+
+    }while(c <= 10);
+    int per_cor = ncorrect / 10;
+    cout << "================================" << endl;
+    cout << "So lan sinh vien tra loi dung: " << ncorrect << endl;
+    cout << "So lan sinh vien tra loi sai: " << nwrong << endl;
+    if(per_cor < 0.75)
+        cout << "=>> Hay nho thay co phu dao them" << endl;
+    return 0;
+}
