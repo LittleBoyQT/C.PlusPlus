@@ -1,0 +1,7 @@
+Viết chương trình chuyển đổi kí hiệu thời gian 24 tiếng thành kí hiệu thời gian 12 tiếng. Ví dụ:
+14:25 thì đổi thành 2:25 P.M.
+Người dùng nhập vào 2 số nguyên. Chương trình cần ít nhất 3 hàm: hàm nhập, hàm chuyển đổi và
+hàm xuất. Hãy lưu thông tin A.M./P.M. là một giá trị char, ‘A’ để chỉ A.M. và ‘P’ để chỉ P.M. Theo
+đó hàm chuyển đổi sẽ có một tham số hình thức truyền tham chiếu kiểu char để lưu kết quả A.M.
+hay P.M. (Tất nhiên hàm này còn các tham số khác nữa.) Bổ sung một vòng lặp cho phép người
+dùng lặp lại việc tính toán này với dữ liệu thời gian khác tới khi nào họ muốn kết thúc chương trình.
