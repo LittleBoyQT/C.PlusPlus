@@ -1,0 +1,34 @@
+Câu 3. [test1.cpp]
+Viết chương trình giúp học sinh tiểu học học phép tính nhân. Sử dụng hàm rand() để sinh
+ngẫu nhiên hai số nguyên dương < 100. Sau đó in ra câu hỏi dạng:
+16 x 7 = ?
+116-05B Lập trình nâng cao HKII, 2016-2017
+Sau khi học sinh trả lời, chương trình kiểm tra kết quả. Nếu đúng thì in ra “Tốt!” và hỏi một phép
+nhân khác. Nếu sai thì in ra “Sai rồi. Mời bạn trả lời lại!” và hỏi lại phép nhân đó tới
+khi nào học sinh trả lời đúng.
+Chương trình hỏi 10 phép nhân khác nhau.
+
+Câu 4. [test2.cpp]
+Để học sinh tập trung hơn, chương trình được cải tiến để có thông điệp đa dạng hơn. Hãy sửa
+chương trình test1 để có các thông điệp khác nhau cho kết quả như sau:
+Nếu kết quả đúng:
+“Tốt!”
+“Đúng đấy!”
+“Đáp số chuẩn đấy!” “Tiếp
+tục giải đúng nhé!”
+Nếu kết quả sai:
+“Sai rồi. Mời bạn trả lời lại!”
+“Đáp án khác cơ. Bạn tính lại
+nhé!” “Bạn ơi đừng bỏ cuộc.”
+“Sai rồi. Tiếp tục cố gắng bạn nhé!”
+Với mỗi lần trả lời của học sinh hãy chọn ngẫu nhiên 1 trong 4 thông điệp.
+
+Câu 5. [test3.cpp]
+Cải tiến chương trình test2 để có thể đánh giá năng lực của học sinh bằng cách đếm số lần trả lời
+đúng và số lần trả lời sai. Nếu sau 10 lần sinh viên trả lời, phần trăm trả lời đúng dưới 75% thì in ra
+thông điệp “Hãy nhờ thầy cô phụ đạo thêm.” và kết thúc chương trình.
+
+Câu 6. [test4.cpp]
+Hãy bổ sung vào test3 câu hỏi về các phép toán cộng, trừ, chia trên các số < 100. Chương trình chọn
+ngẫu nhiên 1 trong 4 phép toán. Với phép trừ, lặp lại việc sinh câu hỏi tới khi nào kết quả không
+âm. Với phép chia, lặp lại việc sinh câu hỏi tới khi nào kết quả không có phần dư.
